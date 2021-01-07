@@ -2,7 +2,7 @@ const http= require('http');
 const os = require('os');
 
 const listenPort = 8080;
-console.log("Kubia server starting...");
+console.log("Node-app server starting...");
 console.log("Local hostname is " + os.hostname());
 console.log("Listening on port " + listenPort);
 
